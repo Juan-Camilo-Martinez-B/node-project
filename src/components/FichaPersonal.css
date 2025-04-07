@@ -1,0 +1,84 @@
+.ficha-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .ficha-content {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .ficha-foto {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .ficha-foto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4CAF50;
+  }
+  
+  .ficha-datos {
+    flex: 2;
+  }
+  
+  .ficha-datos h3 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .ficha-datos p {
+    margin: 8px 0;
+  }
+  
+  .ficha-footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .btn-refresh {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-refresh:hover {
+    background-color: #45a049;
+  }
+  
+  .ficha-metodo {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+  }
+
+  .ficha-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-back {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-back:hover {
+    background-color: #d32f2f;
+  }
